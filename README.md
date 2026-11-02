@@ -2,7 +2,7 @@
 
 **Open research code for complete-operation errors in trapped polar-molecule qubits.**
 
-This repository reproduces exploratory coherent-control calculations for individually trapped \(^{23}\mathrm{Na}^{133}\mathrm{Cs}\) molecules: dressed hyperfine/rotational structure, microwave access, resonant dipolar exchange, the rotational echo, and spectator-state leakage. It also preserves **negative results** from pulse shaping, phase programming, and robust optimization.
+This repository reproduces exploratory coherent-control calculations for individually trapped $^{23}\mathrm{Na}^{133}\mathrm{Cs}$ molecules: dressed hyperfine/rotational structure, microwave access, resonant dipolar exchange, the rotational echo, and spectator-state leakage. It also preserves **negative results** from pulse shaping, phase programming, and robust optimization.
 
 > **Status: research software / technical report, not an experimentally validated gate-design package.** The molecular spectrum uses theoretical constants and fitted effective tweezer parameters. Some experimental line frequencies require *inferred*, not independently measured, microwave dressing shifts for consistency. The control-noise envelopes are hypothetical. No experimental gate fidelity is predicted.
 
@@ -19,6 +19,9 @@ This project asks three reproducible questions:
 - Under which **assumed** field-amplitude and residual-detuning uncertainties does an optimized gate approach its nominal coherent limit?
 
 It does **not** claim a new high-fidelity experimental pulse sequence.
+
+> **Key finding:**
+In a multilevel NaCs gate model, suppressing a strongly coupled spectator state by approximately 92% does not necessarily improve the logical gate. Population can redistribute into other molecular states, reducing complete-gate fidelity despite apparently successful leakage suppression.
 
 ## Quick start
 
