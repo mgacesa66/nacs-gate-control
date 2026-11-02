@@ -1,0 +1,47 @@
+{
+  "0": {
+    "index": 1,
+    "bare_overlap": 0.9996491932549408,
+    "energy_khz": -2652.334471337731
+  },
+  "1": {
+    "index": 11,
+    "bare_overlap": 0.9988353549089677,
+    "energy_khz": -725.8806715331096
+  },
+  "e": {
+    "index": 37,
+    "bare_overlap": 0.9975006277257077,
+    "energy_khz": 3477353.730516513
+  },
+  "e_prime": {
+    "index": 64,
+    "bare_overlap": 0.9971133653625908,
+    "energy_khz": 3479270.487761134
+  },
+  "f_z": {
+    "index": 43,
+    "bare_overlap": 0.9971147298167743,
+    "energy_khz": 3478045.2510431926
+  },
+  "f_y": {
+    "index": 33,
+    "bare_overlap": 0.999407599504729,
+    "energy_khz": 3476643.2481943406
+  },
+  "f_weak": {
+    "index": 42,
+    "bare_overlap": 0.9971478287780693,
+    "energy_khz": 3477835.01216774
+  },
+  "g_plus": {
+    "index": 0,
+    "bare_overlap": 1.0,
+    "energy_khz": -3129.297713988243
+  },
+  "g_minus": {
+    "index": 4,
+    "bare_overlap": 0.999272383207932,
+    "energy_khz": -1698.2571328753445
+  }
+}

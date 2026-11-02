@@ -1,0 +1,48 @@
+{
+  "version": "spectroscopy-v1.0",
+  "source_archive": "NaCs_microwave_power_spectroscopy.zip",
+  "molecular_constants": "Aldegunde and Hutson PRA 96 042506 (2017), theoretical, unchanged",
+  "magnetic_field_G": 864.1,
+  "optical_tensor_khz": -3526.155,
+  "optical_ellipticity_deg": 54.817,
+  "optical_fitting": "two effective optical parameters fitted to three rotational lines; model not independently validated",
+  "microwave_polarization_xyz": [
+    0.80536,
+    0.57825,
+    0.13047
+  ],
+  "microwave_polarization_status": "inferred from two weak-line Rabi ratios; not an independently measured polarization",
+  "microwave_bright_rabi_khz_by_line": {
+    "g_plus->e": 98.781,
+    "g_minus->e": 158.545,
+    "1->e": 253.896
+  },
+  "microwave_rabi_status": "one free inferred power per disputed line; cannot use their agreement as an independent prediction",
+  "common_offset_khz": -5.88,
+  "common_offset_status": "empirical reference offset applied only for spectral comparison, not Hamiltonian",
+  "independent_experimental_check": "307(9) us gate transfer pi time; deposited FigE3 fit approx 307.5 us",
+  "limitations": [
+    "Undriven splittings retain 11-27 kHz mismatches",
+    "Finite-power line centers not available at multiple known powers",
+    "Weak line 0->f_weak retains approx 6.9 kHz relative residual",
+    "Trap not independently calibrated; reported polarization may differ",
+    "Calculated dipole matrix elements are model-dependent; no quantitative gate claims yet"
+  ],
+  "unit_conventions": "H/h cyclic kHz; dipoles Debye; convert to angular rad/ms with 2*pi",
+  "state_labels": {
+    "0": 1,
+    "1": 11,
+    "e": 37,
+    "e_prime": 64,
+    "f_z": 43,
+    "f_y": 33,
+    "f_weak": 42,
+    "g_plus": 0,
+    "g_minus": 4
+  },
+  "sources": [
+    "https://arxiv.org/pdf/1708.05734",
+    "https://arxiv.org/pdf/2406.15345",
+    "https://doi.org/10.7910/DVN/3UEBEV"
+  ]
+}

@@ -1,0 +1,8 @@
+line,experiment_khz,sigma_khz,static_model_khz,raw_residual_khz,inferred_driven_shift_khz,common_reference_shift_khz,adjusted_model_khz,adjusted_residual_khz,classification
+0->f_z,691.7,0.2,697.58551,5.88551,0.0,-5.88,691.70551,0.00551,no drive correction; empirical common offset
+0->e,0.2,0.1,6.06499,5.86499,0.0,-5.88,0.18499,-0.01501,no drive correction; empirical common offset
+0->f_y,-710.3,0.2,-704.41733,5.88267,0.0,-5.88,-710.29733,0.00267,no drive correction; empirical common offset
+0->f_weak,474.6,0.2,487.34664,12.74664,0.0,-5.88,481.46664,6.86664,no drive correction; empirical common offset
+g_plus->e,466.1,0.3,483.02823,16.92823,-11.063,-5.88,466.08523,-0.01477,"inferred drive shift, not independently verified"
+g_minus->e,-927.1,0.3,-948.01235,-20.91235,26.777,-5.88,-927.11535,-0.01535,"inferred drive shift, not independently verified"
+1->e,-1902.2,0.1,-1920.38881,-18.18881,24.054,-5.88,-1902.21481,-0.01481,"inferred drive shift, not independently verified"

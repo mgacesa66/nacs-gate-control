@@ -1,0 +1,34 @@
+{
+  "theta_deg": 35.0,
+  "kind": "truncated",
+  "start_mode": "nominal",
+  "duration_budget_ms": 1.3,
+  "baseline_fidelity": 0.9310301859482912,
+  "joint_echo_fidelity": 0.9375245330782948,
+  "joint_echo_leakage": 0.050489421682972324,
+  "baseline_leakage": 0.05585571282108148,
+  "baseline_controls": {
+    "transfer_ms": 0.24117071737362916,
+    "dwell_ms": 0.6116546678794428,
+    "echo_ms": 0.05751302052405179,
+    "transfer_detuning_khz": 19.855254235788586,
+    "echo_detuning_khz": -0.33482534138853737,
+    "transfer_phase": 0.0,
+    "echo_phase": 1.7052767657291823,
+    "reverse_phase": 0.022776692060561786
+  },
+  "joint_echo_controls": {
+    "transfer_ms": 0.2436345567770134,
+    "dwell_ms": 0.6027837119355949,
+    "echo_ms": 0.057917411775241893,
+    "transfer_detuning_khz": 19.846404850959793,
+    "echo_detuning_khz": -0.3346866726390508,
+    "transfer_phase": 0.0,
+    "echo_phase": 1.7198743340504445,
+    "reverse_phase": 0.022881555668746792
+  },
+  "isolated_calibrated_echo_duration_ms": 0.05751302052405179,
+  "joint_gate_duration_ms": 1.1479702372648635,
+  "evals": 260,
+  "run_s": 22.092305183410645
+}

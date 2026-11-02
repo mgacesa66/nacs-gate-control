@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this research code, please cite its software release and the original experimental and molecular-theory references."
+title: "NaCs Gate Control: Spectroscopy and Complete-Operation Error Benchmarks"
+type: software
+authors:
+  - family-names: "Gacesa"
+    given-names: "Marko"
+date-released: 2026-11-01
+version: 0.1.0
+license: MIT
+abstract: "Experimental-parameter-constrained, exploratory NaCs molecular quantum gate model, with explicit limitations and negative control results."

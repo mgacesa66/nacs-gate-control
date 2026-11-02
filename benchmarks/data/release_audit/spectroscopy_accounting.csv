@@ -1,0 +1,8 @@
+line,measured_khz,static_model_khz,raw_difference_khz,posthoc_accounted_difference_khz,is_independently_predicted,note
+0->f_z,691.7,697.58551,5.88551,0.00551,,"finite-power amplitudes were inferred, NOT independently measured"
+0->e,0.2,6.06499,5.86499,-0.01501,,"finite-power amplitudes were inferred, NOT independently measured"
+0->f_y,-710.3,-704.41733,5.88267,0.00267,,"finite-power amplitudes were inferred, NOT independently measured"
+0->f_weak,474.6,487.34664,12.74664,6.86664,,"finite-power amplitudes were inferred, NOT independently measured"
+g_plus->e,466.1,483.02823,16.92823,-0.01477,False,"finite-power amplitudes were inferred, NOT independently measured"
+g_minus->e,-927.1,-948.01235,-20.91235,-0.01535,False,"finite-power amplitudes were inferred, NOT independently measured"
+1->e,-1902.2,-1920.38881,-18.18881,-0.01481,False,"finite-power amplitudes were inferred, NOT independently measured"

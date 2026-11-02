@@ -1,0 +1,62 @@
+[
+  {
+    "scenario": "tight",
+    "protocol_A": "gate_only",
+    "protocol_B": "all_spectators",
+    "n_simulated_pairs": 30,
+    "paired_mean_B_minus_A": -0.0005323996491583364,
+    "bootstrap_95_low": -0.0010848799390418566,
+    "bootstrap_95_high": -2.4466370564458148e-06,
+    "interpretation": "conditional Monte Carlo sampling only; not experimental/model uncertainty"
+  },
+  {
+    "scenario": "tight",
+    "protocol_A": "unmodulated",
+    "protocol_B": "aux51",
+    "n_simulated_pairs": 30,
+    "paired_mean_B_minus_A": -0.012947829379303026,
+    "bootstrap_95_low": -0.014946997074870533,
+    "bootstrap_95_high": -0.010987801426381536,
+    "interpretation": "conditional Monte Carlo sampling only; not experimental/model uncertainty"
+  },
+  {
+    "scenario": "tight",
+    "protocol_A": "unmodulated",
+    "protocol_B": "all_spectators",
+    "n_simulated_pairs": 30,
+    "paired_mean_B_minus_A": 0.009207493436598461,
+    "bootstrap_95_low": 0.00858779376609432,
+    "bootstrap_95_high": 0.009848938760847501,
+    "interpretation": "conditional Monte Carlo sampling only; not experimental/model uncertainty"
+  },
+  {
+    "scenario": "broad",
+    "protocol_A": "gate_only",
+    "protocol_B": "all_spectators",
+    "n_simulated_pairs": 30,
+    "paired_mean_B_minus_A": -0.0010759211440913043,
+    "bootstrap_95_low": -0.002192110346861619,
+    "bootstrap_95_high": -5.815071205788955e-06,
+    "interpretation": "conditional Monte Carlo sampling only; not experimental/model uncertainty"
+  },
+  {
+    "scenario": "broad",
+    "protocol_A": "unmodulated",
+    "protocol_B": "aux51",
+    "n_simulated_pairs": 30,
+    "paired_mean_B_minus_A": -0.01720605890207107,
+    "bootstrap_95_low": -0.02500218566328209,
+    "bootstrap_95_high": -0.010445629328813497,
+    "interpretation": "conditional Monte Carlo sampling only; not experimental/model uncertainty"
+  },
+  {
+    "scenario": "broad",
+    "protocol_A": "unmodulated",
+    "protocol_B": "all_spectators",
+    "n_simulated_pairs": 30,
+    "paired_mean_B_minus_A": 0.0060656690140528415,
+    "bootstrap_95_low": 0.002849908332839632,
+    "bootstrap_95_high": 0.009352323780186064,
+    "interpretation": "conditional Monte Carlo sampling only; not experimental/model uncertainty"
+  }
+]

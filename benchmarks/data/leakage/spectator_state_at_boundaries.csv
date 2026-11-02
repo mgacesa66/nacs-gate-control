@@ -1,0 +1,97 @@
+protocol,checkpoint,spectator_state,at_least_one_population
+square,Initial,e_prime,0.0
+square,Initial,f_z,0.0
+square,Initial,f_y,0.0
+square,Initial,f_weak,0.0
+square,Initial,g_plus,0.0
+square,Initial,g_minus,0.0
+square,Initial,aux51,0.0
+square,Initial,aux79,0.0
+square,After transfer,e_prime,0.0007520485053188565
+square,After transfer,f_z,1.738501338337646e-05
+square,After transfer,f_y,0.0011520701427991038
+square,After transfer,f_weak,1.678149475552431e-07
+square,After transfer,g_plus,7.695225198330853e-08
+square,After transfer,g_minus,1.949093991083163e-05
+square,After transfer,aux51,0.015010018254917108
+square,After transfer,aux79,5.7867023519374714e-05
+square,After dwell 1,e_prime,0.0007516874749007159
+square,After dwell 1,f_z,1.7382802906456474e-05
+square,After dwell 1,f_y,0.0011521709022593084
+square,After dwell 1,f_weak,1.689211061694039e-07
+square,After dwell 1,g_plus,7.814727962492571e-08
+square,After dwell 1,g_minus,1.9491715236185924e-05
+square,After dwell 1,aux51,0.015010009983385662
+square,After dwell 1,aux79,5.786932288793618e-05
+square,After echo,e_prime,0.00781533483856191
+square,After echo,f_z,1.9158313844991572e-05
+square,After echo,f_y,0.0017644904056380555
+square,After echo,f_weak,3.1490864244121925e-07
+square,After echo,g_plus,1.7443695196356046e-07
+square,After echo,g_minus,2.0685152156654985e-05
+square,After echo,aux51,0.014422840789225996
+square,After echo,aux79,6.285575961433701e-05
+square,After dwell 2,e_prime,0.007810971998370708
+square,After dwell 2,f_z,1.9156450059300213e-05
+square,After dwell 2,f_y,0.001764245441988336
+square,After dwell 2,f_weak,3.175012877921883e-07
+square,After dwell 2,g_plus,1.7712286158663103e-07
+square,After dwell 2,g_minus,2.0688557506796427e-05
+square,After dwell 2,aux51,0.014423145657870364
+square,After dwell 2,aux79,6.285771457367626e-05
+square,After retrieval,e_prime,0.00864485415486531
+square,After retrieval,f_z,2.0687132789039774e-05
+square,After retrieval,f_y,0.0017703345872653637
+square,After retrieval,f_weak,6.022952301237562e-07
+square,After retrieval,g_plus,2.3816813634496368e-07
+square,After retrieval,g_minus,3.7230119008112136e-05
+square,After retrieval,aux51,0.02894103760688103
+square,After retrieval,aux79,0.00011150610396690838
+gaussian,Initial,e_prime,0.0
+gaussian,Initial,f_z,0.0
+gaussian,Initial,f_y,0.0
+gaussian,Initial,f_weak,0.0
+gaussian,Initial,g_plus,0.0
+gaussian,Initial,g_minus,0.0
+gaussian,Initial,aux51,0.0
+gaussian,Initial,aux79,0.0
+gaussian,After transfer,e_prime,0.0007109967252771846
+gaussian,After transfer,f_z,0.0002343635551113105
+gaussian,After transfer,f_y,0.0007039651386856968
+gaussian,After transfer,f_weak,1.1063330973825662e-07
+gaussian,After transfer,g_plus,7.590243253479245e-08
+gaussian,After transfer,g_minus,1.8054489460515372e-05
+gaussian,After transfer,aux51,0.014228957711223802
+gaussian,After transfer,aux79,6.317121727220856e-05
+gaussian,After dwell 1,e_prime,0.0007114737628938531
+gaussian,After dwell 1,f_z,0.00023435744287527403
+gaussian,After dwell 1,f_y,0.0007056294020227036
+gaussian,After dwell 1,f_weak,1.1154041793265119e-07
+gaussian,After dwell 1,g_plus,7.691168936645401e-08
+gaussian,After dwell 1,g_minus,1.8052806664286213e-05
+gaussian,After dwell 1,aux51,0.01422724015442575
+gaussian,After dwell 1,aux79,6.317743167155093e-05
+gaussian,After echo,e_prime,0.005270695705145779
+gaussian,After echo,f_z,0.0002217527057110444
+gaussian,After echo,f_y,0.0007876127450968584
+gaussian,After echo,f_weak,1.2615583729383605e-07
+gaussian,After echo,g_plus,7.125292575873143e-08
+gaussian,After echo,g_minus,1.873936674901611e-05
+gaussian,After echo,aux51,0.014218134751398766
+gaussian,After echo,aux79,6.321093294014556e-05
+gaussian,After dwell 2,e_prime,0.0052431108310399275
+gaussian,After dwell 2,f_z,0.0002217533761206579
+gaussian,After dwell 2,f_y,0.0007864362305858215
+gaussian,After dwell 2,f_weak,1.2828266113571397e-07
+gaussian,After dwell 2,g_plus,7.333136839599753e-08
+gaussian,After dwell 2,g_minus,1.8734326855516916e-05
+gaussian,After dwell 2,aux51,0.014219344122923208
+gaussian,After dwell 2,aux79,6.321021628703796e-05
+gaussian,After retrieval,e_prime,0.005930368430148169
+gaussian,After retrieval,f_z,0.0004405248750724011
+gaussian,After retrieval,f_y,0.0012307727563955133
+gaussian,After retrieval,f_weak,2.0591292689207313e-07
+gaussian,After retrieval,g_plus,1.3728383389237293e-07
+gaussian,After retrieval,g_minus,3.573545872504648e-05
+gaussian,After retrieval,aux51,0.027219535160080105
+gaussian,After retrieval,aux79,0.00011391913811080879

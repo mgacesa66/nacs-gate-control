@@ -1,0 +1,93 @@
+{
+  "unmodulated": {
+    "objective": 0.06247546692170525,
+    "design": {
+      "transfer_ms": 0.2436345567770134,
+      "dwell_ms": 0.6027837119355949,
+      "transfer_detuning_khz": 19.846404850959793,
+      "phase_forward": 0.0,
+      "phase_reverse": 0.0,
+      "reverse_phase": 0.022881555668746792,
+      "fraction_first": 0.5
+    },
+    "metrics": {
+      "fidelity": 0.9375245330782948,
+      "leakage": 0.050489421682972546,
+      "aux51": 0.02722061664311585,
+      "other_spectators": 0.00759436695656511,
+      "total_spectators": 0.03481498359968095,
+      "intended_nonlogical": 0.015674438083291595
+    },
+    "elapsed_s": 12.29,
+    "phase_step_forward_deg": 0.0,
+    "phase_step_reverse_deg": 0.0
+  },
+  "gate_only": {
+    "objective": 0.053762404592537116,
+    "design": {
+      "transfer_ms": 0.25175662434270923,
+      "dwell_ms": 0.5247485299059776,
+      "transfer_detuning_khz": 19.796401890583297,
+      "phase_forward": 0.037093638045013005,
+      "phase_reverse": -0.0350377869768143,
+      "reverse_phase": -0.495869383995742,
+      "fraction_first": 0.5
+    },
+    "metrics": {
+      "fidelity": 0.9462375954074629,
+      "leakage": 0.05122017113216626,
+      "aux51": 0.025980828504677457,
+      "other_spectators": 0.007472417804335286,
+      "total_spectators": 0.03345324630901274,
+      "intended_nonlogical": 0.01776692482315352
+    },
+    "elapsed_s": 17.41,
+    "phase_step_forward_deg": 2.1253089067651474,
+    "phase_step_reverse_deg": -2.0075173172498992
+  },
+  "aux51": {
+    "objective": 0.07471643547025719,
+    "design": {
+      "transfer_ms": 0.26073297898418485,
+      "dwell_ms": 0.6140899934184497,
+      "transfer_detuning_khz": 21.233161237373288,
+      "phase_forward": -1.4017200271852635,
+      "phase_reverse": 1.4208021898339822,
+      "reverse_phase": -0.17737773884511382,
+      "fraction_first": 0.5
+    },
+    "metrics": {
+      "fidelity": 0.9286550075422422,
+      "leakage": 0.051153828247890054,
+      "aux51": 0.0022476286749995786,
+      "other_spectators": 0.028120159661839922,
+      "total_spectators": 0.0303677883368395,
+      "intended_nonlogical": 0.020786039911050554
+    },
+    "elapsed_s": 19.523472547531128,
+    "seed": 713,
+    "evaluations": 420
+  },
+  "all_spectators": {
+    "objective": 0.10101264441287684,
+    "design": {
+      "transfer_ms": 0.2517522739207385,
+      "dwell_ms": 0.5319873937172963,
+      "transfer_detuning_khz": 19.780781705930387,
+      "phase_forward": 0.03715952822366904,
+      "phase_reverse": -0.03614786961657098,
+      "reverse_phase": -0.4967502068005013,
+      "fraction_first": 0.5
+    },
+    "metrics": {
+      "fidelity": 0.9463802424458866,
+      "leakage": 0.046939233924978674,
+      "aux51": 0.024295294189192705,
+      "other_spectators": 0.007299963716649579,
+      "total_spectators": 0.031595257905842285,
+      "intended_nonlogical": 0.01534397601913639
+    },
+    "calls": 336,
+    "note": "Bounded clipped direct 11-state Nelder-Mead search; local result, not global optimum"
+  }
+}
