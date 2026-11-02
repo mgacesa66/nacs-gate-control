@@ -24,6 +24,7 @@ It does **not** claim a new high-fidelity experimental pulse sequence.
 In a multilevel NaCs gate model, suppressing a strongly coupled spectator state by approximately 92% does not necessarily improve the logical gate. Population can redistribute into other molecular states, reducing complete-gate fidelity despite apparently successful leakage suppression.
 
 ## Quick start
+[![Python tests](https://github.com/mgacesa66/nacs-gate-control/actions/workflows/tests.yml/badge.svg)](https://github.com/mgacesa66/nacs-gate-control/actions/workflows/tests.yml)
 
 Python 3.10+ and NumPy/SciPy/SymPy are required.
 
