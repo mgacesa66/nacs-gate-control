@@ -1,0 +1,68 @@
+[
+  {
+    "protocol": "isolated_transfer",
+    "raw_frobenius": 0.036896671517859435,
+    "aligned_frobenius": 0.0008568125391183259,
+    "global_and_local_z_rad": [
+      0.019671010870404137,
+      -7.350688346317303e-05,
+      -7.350687277171351e-05
+    ],
+    "max_complex_entry_difference": 0.01870269427519786
+  },
+  {
+    "protocol": "isolated_second_seed",
+    "raw_frobenius": 0.03735122298245293,
+    "aligned_frobenius": 0.0007736351850213812,
+    "global_and_local_z_rad": [
+      0.01923552587840239,
+      -1.1244576352541164e-05,
+      -1.1244561173228186e-05
+    ],
+    "max_complex_entry_difference": 0.018819340953609077
+  },
+  {
+    "protocol": "selected_aux51",
+    "raw_frobenius": 0.03834553914551111,
+    "aligned_frobenius": 0.0008071315142437429,
+    "global_and_local_z_rad": [
+      0.019639806430691756,
+      -6.602067703062292e-05,
+      -6.602066818908922e-05
+    ],
+    "max_complex_entry_difference": 0.019322902854234207
+  },
+  {
+    "protocol": "channel_fidelity",
+    "raw_frobenius": 0.039024456460729585,
+    "aligned_frobenius": 0.0005020581284038238,
+    "global_and_local_z_rad": [
+      0.020029429692290168,
+      -2.6515809626886603e-05,
+      -2.6515800892409818e-05
+    ],
+    "max_complex_entry_difference": 0.019672971892925717
+  },
+  {
+    "protocol": "channel_guarded",
+    "raw_frobenius": 0.03837001147037531,
+    "aligned_frobenius": 0.0008090269159157766,
+    "global_and_local_z_rad": [
+      0.019640208833456442,
+      -6.776043074585006e-05,
+      -6.776041614367161e-05
+    ],
+    "max_complex_entry_difference": 0.019345469896074184
+  },
+  {
+    "protocol": "historical_gaussian",
+    "raw_frobenius": 0.03709764360492705,
+    "aligned_frobenius": 0.0005634435950964002,
+    "global_and_local_z_rad": [
+      0.019033714457192586,
+      -2.1699271558795992e-05,
+      -2.1699278113096287e-05
+    ],
+    "max_complex_entry_difference": 0.01867987372949884
+  }
+]

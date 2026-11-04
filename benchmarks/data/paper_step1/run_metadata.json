@@ -1,0 +1,23 @@
+{
+  "title": "arXiv step1 molecular parameter sensitivity and recalibration",
+  "frozen_release_sha256": "16672da29adc12fa18bd484412e026eb9f32c6df2286e43da620c2860178e119",
+  "frozen_spectroscopy_checksum": "e8c99f59e0cbab339f0f48ed23b21acba5fb81a86130f9297f89891b2aecdeb5",
+  "publication_plan": "PUBLICATION_PLAN_FROZEN.md",
+  "calibration_modes": [
+    "fixed",
+    "frequency",
+    "frequency_rabi"
+  ],
+  "probe_hypothetical": true,
+  "echo_gaussian_midpoint_steps": 64,
+  "phase_calibration": "both fixed baseline virtual-Z and optimistic locally refitted Z reported",
+  "controls": "stored locally optimized protocols; no scenario-by-scenario gate reoptimization",
+  "spectral_labels": "global maximum-overlap assignment, phase gauge aligned",
+  "caveats": [
+    "power-dependent AC Stark line-center corrections not calibrated",
+    "eigenstate near crossings can be ambiguous",
+    "no motional/loss/noise model in this audit",
+    "carrier changes idealized bare dressed transition frequencies"
+  ],
+  "basis_spotcheck_status": "not performed for perturbed spectra; planned Step 2"
+}

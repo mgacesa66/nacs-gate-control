@@ -1,0 +1,70 @@
+{
+  "method": "global max-overlap tracked 128-state spectrum, actual driven 2-molecule coherent propagation",
+  "profile": "full",
+  "gaussian_echo_midpoint_steps": 64,
+  "candidate_heuristic": "max g/max(abs(detuning),10kHz) over core 0,1,e and physical transfer and echo fields",
+  "basis_order": {
+    "11": [],
+    "13": [
+      78,
+      80
+    ],
+    "15": [
+      38,
+      69,
+      40,
+      72
+    ],
+    "17": [
+      38,
+      69,
+      40,
+      72,
+      49,
+      9
+    ],
+    "19": [
+      38,
+      69,
+      40,
+      72,
+      49,
+      9,
+      63,
+      44
+    ],
+    "21": [
+      38,
+      69,
+      40,
+      72,
+      49,
+      9,
+      63,
+      44,
+      50,
+      48
+    ]
+  },
+  "num_gate_rows": 192,
+  "probes": [
+    "nominal",
+    "B_minus_0p1G",
+    "B_plus_0p1G",
+    "tensor_minus_0p5pct",
+    "tensor_plus_0p5pct",
+    "ellipse_minus_0p1deg",
+    "ellipse_plus_0p1deg",
+    "ellipse_minus_0p25deg",
+    "ellipse_plus_0p25deg",
+    "ellipse_minus_0p5deg",
+    "ellipse_plus_0p5deg"
+  ],
+  "calibration_caveat": "idealized bare carrier tracking, not experimental measured line center",
+  "limits": [
+    "finite screened subspaces only, not full 128x128 pair propagation",
+    "unmodeled motion, loss and microwave bandwidth",
+    "no objective reoptimization on perturbed spectra",
+    "ranking heuristic not rigorous omitted-amplitude bound"
+  ]
+}

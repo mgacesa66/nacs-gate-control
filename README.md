@@ -1,12 +1,26 @@
 # NaCs Gate Control
 
+> **arXiv preparation update — Step 3 (`v0.2.0.dev3`):** Four microwave-control objectives are compared under the same peak-field, phase-ramp (2 µs), duration and candidate constraints. The isolated-transfer objective does not reliably determine complete-gate quality; the guarded channel achieves ~94.64% nominal fidelity in the corrected 11-state model, with ~94.63% in the 25-state cross-screen. None is robust against broad hypothetical control errors. See [Step 3 technical report](reports/PAPER_STEP3_MATCHED_OBJECTIVES.md) and [publication status](PUBLICATION_STATUS.md). The public GitHub v0.1.0 baseline remains unchanged.
+
+
 **Open research code for complete-operation errors in trapped polar-molecule qubits.**
 
-This repository reproduces exploratory coherent-control calculations for individually trapped $^{23}\mathrm{Na}^{133}\mathrm{Cs}$ molecules: dressed hyperfine/rotational structure, microwave access, resonant dipolar exchange, the rotational echo, and spectator-state leakage. It also preserves **negative results** from pulse shaping, phase programming, and robust optimization.
+This repository reproduces exploratory coherent-control calculations for individually trapped \(^{23}\mathrm{Na}^{133}\mathrm{Cs}\) molecules: dressed hyperfine/rotational structure, microwave access, resonant dipolar exchange, the rotational echo, and spectator-state leakage. It also preserves **negative results** from pulse shaping, phase programming, and robust optimization.
 
 > **Status: research software / technical report, not an experimentally validated gate-design package.** The molecular spectrum uses theoretical constants and fitted effective tweezer parameters. Some experimental line frequencies require *inferred*, not independently measured, microwave dressing shifts for consistency. The control-noise envelopes are hypothetical. No experimental gate fidelity is predicted.
 
 There are **no figures** in this initial release. Numerical CSV/JSON benchmarks and plotting-independent reproduction scripts are included.
+
+
+## Preprint validation extension (v0.2.0.dev1; figures deferred)
+
+The six-stage publication plan is recorded in [PUBLICATION_PLAN_FROZEN.md](PUBLICATION_PLAN_FROZEN.md). **Step 1** adds a controlled study of fitted-molecular-parameter changes under three microwave calibrations: absolute carriers held fixed, transitions frequency-tracked, and frequency + target-Rabi recalibrated. The central result is that carrier tracking substantially recovers the severe *fixed-frequency* ellipticity losses, but residual fidelity and the ranking of spectator-targeted controls remain model-dependent. This is not an experimental uncertainty budget.
+
+- [Step 1 technical findings and scientific limitations](reports/PAPER_STEP1_PARAMETER_RECALIBRATION.md)
+- [11 molecular-parameter probes, 132 gate calculations, raw CSVs](benchmarks/data/paper_step1/)
+- [Frozen GitHub v0.1.0 provenance](frozen/manifests/paper_step1_provenance.json)
+
+Run with `python scripts/paper_step1_parameter_recalibration.py --output outputs/paper_step1`, then `python -m pytest -q`. The public v0.1.0 release remains unchanged; do not interpret this extension as completing Step 2 basis enlargement.
 
 ## Why this repository exists
 
@@ -20,11 +34,7 @@ This project asks three reproducible questions:
 
 It does **not** claim a new high-fidelity experimental pulse sequence.
 
-> **Key finding:**
-In a multilevel NaCs gate model, suppressing a strongly coupled spectator state by approximately 92% does not necessarily improve the logical gate. Population can redistribute into other molecular states, reducing complete-gate fidelity despite apparently successful leakage suppression.
-
 ## Quick start
-[![Python tests](https://github.com/mgacesa66/nacs-gate-control/actions/workflows/tests.yml/badge.svg)](https://github.com/mgacesa66/nacs-gate-control/actions/workflows/tests.yml)
 
 Python 3.10+ and NumPy/SciPy/SymPy are required.
 

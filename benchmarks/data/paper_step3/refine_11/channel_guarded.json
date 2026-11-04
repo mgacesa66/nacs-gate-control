@@ -1,0 +1,29 @@
+{
+  "objective": "channel_guarded",
+  "starting_vector": [
+    0.2517522739207385,
+    0.5319873937172963,
+    19.780781705930387,
+    0.03715952822366928,
+    -0.03614786961657084,
+    -0.4967502068005013
+  ],
+  "final_vector": [
+    0.2517522739207385,
+    0.5319873937172963,
+    19.780781705930387,
+    -0.007840471776330717,
+    -0.03614786961657084,
+    0.3256497931994987
+  ],
+  "final_objective": 0.11661330989592508,
+  "n_objective_evaluations": 181,
+  "trial_budget": 180,
+  "steps": 24,
+  "refinement_basis_n": 11,
+  "phase_ramp_us": 2.0,
+  "seed": 9184,
+  "accepted_updates": 13,
+  "method": "deterministic-matched-pattern-search",
+  "not_global_optimum": true
+}

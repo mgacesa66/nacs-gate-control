@@ -1,0 +1,14 @@
+{
+  "frozen_v0_1_0_zip_sha256": "16672da29adc12fa18bd484412e026eb9f32c6df2286e43da620c2860178e119",
+  "frozen_gate_npz_sha256": "e8c99f59e0cbab339f0f48ed23b21acba5fb81a86130f9297f89891b2aecdeb5",
+  "research_extension_version": "0.2.0.dev1",
+  "original_archive_unmodified": true,
+  "publication_plan": "PUBLICATION_PLAN_FROZEN.md",
+  "new_tests": "tests/test_paper_step1.py",
+  "raw_data": {
+    "gate_comparison.csv": "a7ae2bfbbf3aed8cc4a4fc57da5b85973f37a229264a8fd032620581efc41fa9",
+    "hypothesis_summary.csv": "d008df428a2fdda52fce62863a4ce835a1593b895d1bc7ad943158ca0160ca46",
+    "run_metadata.json": "b07f08a760c27c2f3aff89dac3ca7edfc52043724c7508444e16c83791d01b34",
+    "spectral_tracking.csv": "da813427c1a76e9076c8590e37f07efa70c7554b0da50827c149022097d8b8d7"
+  }
+}

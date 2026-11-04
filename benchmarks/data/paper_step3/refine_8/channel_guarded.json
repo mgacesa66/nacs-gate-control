@@ -1,0 +1,18 @@
+{
+  "objective": "channel_guarded",
+  "starting_seed": 2027,
+  "start_objective": 0.12081012820705178,
+  "maxfev": 240,
+  "evals": 59,
+  "objective_value": 0.12081012820705178,
+  "vector": [
+    0.2517522739207385,
+    0.5319873937172963,
+    19.780781705930387,
+    0.03715952822366928,
+    -0.03614786961657084,
+    -0.4967502068005013
+  ],
+  "method": "Powell",
+  "termination_message": "Optimization terminated successfully."
+}

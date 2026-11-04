@@ -1,0 +1,18 @@
+{
+  "objective": "isolated_transfer",
+  "starting_seed": 2026,
+  "start_objective": 0.01541466031756511,
+  "maxfev": 240,
+  "evals": 160,
+  "objective_value": 0.015298469810073101,
+  "vector": [
+    0.24906111519847102,
+    0.7199577275012559,
+    20.300484372100247,
+    -0.4901045201689089,
+    0.4900821316566471,
+    -0.25077640500378545
+  ],
+  "method": "Powell",
+  "termination_message": "Optimization terminated successfully."
+}
