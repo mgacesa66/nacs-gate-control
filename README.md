@@ -1,7 +1,6 @@
 # NaCs Gate Control
 
-> **arXiv preparation update — Step 3 (`v0.2.0.dev3`):** Four microwave-control objectives are compared under the same peak-field, phase-ramp (2 µs), duration and candidate constraints. The isolated-transfer objective does not reliably determine complete-gate quality; the guarded channel achieves ~94.64% nominal fidelity in the corrected 11-state model, with ~94.63% in the 25-state cross-screen. None is robust against broad hypothetical control errors. See [Step 3 technical report](reports/PAPER_STEP3_MATCHED_OBJECTIVES.md) and [publication status](PUBLICATION_STATUS.md). The public GitHub v0.1.0 baseline remains unchanged.
-
+> ** `v0.2.0.dev3`:** Four microwave-control objectives are compared under the same peak-field, phase-ramp (2 µs), duration and candidate constraints. The isolated-transfer objective does not reliably determine complete-gate quality; the guarded channel achieves ~94.64% nominal fidelity in the corrected 11-state model, with ~94.63% in the 25-state cross-screen. None is robust against broad hypothetical control errors.
 
 **Open research code for complete-operation errors in trapped polar-molecule qubits.**
 
