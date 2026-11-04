@@ -10,17 +10,6 @@ This repository reproduces exploratory coherent-control calculations for individ
 
 There are **no figures** in this initial release. Numerical CSV/JSON benchmarks and plotting-independent reproduction scripts are included.
 
-
-## Preprint validation extension (v0.2.0.dev1; figures deferred)
-
-The six-stage publication plan is recorded in [PUBLICATION_PLAN_FROZEN.md](PUBLICATION_PLAN_FROZEN.md). **Step 1** adds a controlled study of fitted-molecular-parameter changes under three microwave calibrations: absolute carriers held fixed, transitions frequency-tracked, and frequency + target-Rabi recalibrated. The central result is that carrier tracking substantially recovers the severe *fixed-frequency* ellipticity losses, but residual fidelity and the ranking of spectator-targeted controls remain model-dependent. This is not an experimental uncertainty budget.
-
-- [Step 1 technical findings and scientific limitations](reports/PAPER_STEP1_PARAMETER_RECALIBRATION.md)
-- [11 molecular-parameter probes, 132 gate calculations, raw CSVs](benchmarks/data/paper_step1/)
-- [Frozen GitHub v0.1.0 provenance](frozen/manifests/paper_step1_provenance.json)
-
-Run with `python scripts/paper_step1_parameter_recalibration.py --output outputs/paper_step1`, then `python -m pytest -q`. The public v0.1.0 release remains unchanged; do not interpret this extension as completing Step 2 basis enlargement.
-
 ## Why this repository exists
 
 A molecular gate can look good when only the intended two-state interaction is optimized, yet perform badly as a complete **write into the interacting manifold → exchange → echo → retrieve** operation. Nearby molecular states are part of the dynamics even when far detuned, because their microwave dipoles can be much larger than the intended hyperfine-changing transition.
@@ -119,7 +108,7 @@ Tests exercise actual Hamiltonian construction and full gate propagation; they a
 
 ## Attribution and references
 
-This is independent theoretical work inspired by the NaCs molecular-gate experiment; it is not an official release from Ni's laboratory. Experimental datasets and published theory remain the work of their respective authors.
+This is independent theoretical work inspired by the NaCs molecular-gate experiment; it is not an official release from Ni's laboratory nor related to it in any way. Experimental datasets and published theory remain the work of their respective authors.
 
 - Picard *et al.*, **Nature** 637, 821–826 (2025), [DOI:10.1038/s41586-024-08177-3](https://doi.org/10.1038/s41586-024-08177-3).
 - Aldegunde and Hutson, **Physical Review A** 96, 042506 (2017), [arXiv:1708.05734](https://arxiv.org/abs/1708.05734).
