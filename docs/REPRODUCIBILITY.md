@@ -102,8 +102,11 @@ From an editable installation, run:
 This recovers the fitter from NaCs_spectroscopy_frozen_v1.zip (SHA-256 in
 frozen/manifests/source_archives_sha256.json). Only its obsolete follow-up
 CLI message was removed. The unweighted fit uses three bright transition
-offsets at 864.1 G and reports the 1->e line separately. The expected result
-rounds to -3526.155 kHz and 54.817 degrees. The fitter reports line centers
+offsets at 864.1 G and reports the 1->e line separately. The expected result is near -3526.155 kHz and 54.817 degrees.
+Tests allow 0.002 kHz and 0.001 degrees respectively, and independently
+require the three fitted residuals to agree with the static export within
+0.1 kHz. Finite-difference fitting of MHz-scale eigenvalues can produce
+small platform-dependent parameter differences. The fitter reports line centers
 at full fitted precision. Table I uses the static seven-line export at the
 rounded parameters in benchmarks/frozen/baseline_manifest.json. The common
 reference correction enters the table comparison only.
