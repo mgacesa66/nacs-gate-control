@@ -1,0 +1,22 @@
+{
+  "objective": "isolated_transfer",
+  "seed": 2026,
+  "iterations": 7,
+  "population": 30,
+  "evaluations": 240,
+  "best_objective": 0.01541466031756511,
+  "vector": [
+    0.25040885732223733,
+    0.5018151913233285,
+    20.29818740431069,
+    -0.49300100863195834,
+    0.4880066869946211,
+    -0.4292891076824016
+  ],
+  "search_basis_n": 8,
+  "echo_steps": 16,
+  "ramp_us": 2.0,
+  "lambda_penalty": 2.0,
+  "success": false,
+  "stopped_at_equal_budget": true
+}

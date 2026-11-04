@@ -1,0 +1,22 @@
+{
+  "objective": "channel_guarded",
+  "seed": 2026,
+  "iterations": 7,
+  "population": 30,
+  "evaluations": 240,
+  "best_objective": 0.12081012820705178,
+  "vector": [
+    0.2517522739207385,
+    0.5319873937172963,
+    19.780781705930387,
+    0.03715952822366928,
+    -0.03614786961657084,
+    -0.4967502068005013
+  ],
+  "search_basis_n": 8,
+  "echo_steps": 16,
+  "ramp_us": 2.0,
+  "lambda_penalty": 2.0,
+  "success": false,
+  "stopped_at_equal_budget": true
+}

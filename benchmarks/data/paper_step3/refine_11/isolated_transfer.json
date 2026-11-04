@@ -1,0 +1,29 @@
+{
+  "objective": "isolated_transfer",
+  "starting_vector": [
+    0.24906111519847102,
+    0.7199577275012559,
+    20.300484372100247,
+    -0.4901045201689089,
+    0.4900821316566471,
+    -0.25077640500378545
+  ],
+  "final_vector": [
+    0.24908057055332128,
+    0.7171994026906983,
+    20.28575057680616,
+    -0.45664155506545073,
+    0.45465708564991447,
+    -0.2565999789828152
+  ],
+  "final_objective": 0.015315691722274538,
+  "n_objective_evaluations": 181,
+  "trial_budget": 180,
+  "steps": 24,
+  "refinement_basis_n": 11,
+  "phase_ramp_us": 2.0,
+  "seed": 9184,
+  "accepted_updates": 3,
+  "method": "deterministic-matched-pattern-search",
+  "not_global_optimum": true
+}

@@ -70,3 +70,43 @@ The paired bootstrap resamples the archived *same* noise coordinates for competi
 ## Releasing a future version
 
 Keep `benchmarks/frozen` immutable. Add new `v2` arrays and a new manifest if the spectroscopy changes. Create a separate benchmark directory and new test thresholds when controls or uncertainty assumptions change; do not overwrite historical CSV/JSON results to make the record look better.
+
+
+## arXiv preparation — Step 2 screened-basis validation
+
+See [`../reports/PAPER_STEP2_BASIS_CONVERGENCE.md`](../reports/PAPER_STEP2_BASIS_CONVERGENCE.md). The fast profile is for installation smoke tests; the frozen numerical comparisons were generated with `--profile full --steps 64`. Independent dipolar-screen, union and logical-map phase-alignment scripts and CSV/NPZ data are in `benchmarks/data/paper_step2/`. Never overwrite frozen benchmark data with reruns; the scripts default to ignored `outputs/` directories.
+
+## arXiv preparation — Step 3 matched-control objectives
+
+The [Step 3 technical report](../reports/PAPER_STEP3_MATCHED_OBJECTIVES.md) defines all control bounds, model assumptions, four scores, objective evaluation budgets, calibration conventions and error distributions. The frozen stage-by-stage search checkpoints, nominal results, paired 24-sample noise realizations and 25-state logical operators are at `benchmarks/data/paper_step3/`.
+
+Commands (with `OPENBLAS_NUM_THREADS=1`):
+
+```bash
+python scripts/paper_step3_optimize.py --objective channel_guarded --seed 2026 --iterations 7 --population 30
+python scripts/paper_step3_refine.py --objective channel_guarded --input outputs/paper_step3 --output outputs/paper_step3_refine/channel_guarded.json
+python scripts/paper_step3_refine_11.py --objective channel_guarded --input outputs/paper_step3 --output outputs/paper_step3_refine_11/channel_guarded.json
+python scripts/paper_step3_validate.py --steps 64 --output outputs/paper_step3_final_validation
+python scripts/paper_step3_basis_columns.py
+python scripts/paper_step3_noise.py --protocol channel_guarded --scenario tight --samples 24
+```
+
+The 25-state `column_propagator` is independently checked against the original dense pair propagator for two finite-ramp controls. The work uses the same frozen spectroscopy data and is *not* a calibration of real microwave hardware or full 128² basis proof.
+
+### Refit the effective optical parameters
+
+From an editable installation, run:
+
+    OPENBLAS_NUM_THREADS=1 python -m nacs.spectroscopy.calibrate --output outputs/optical_fit
+
+This recovers the fitter from NaCs_spectroscopy_frozen_v1.zip (SHA-256 in
+frozen/manifests/source_archives_sha256.json). Only its obsolete follow-up
+CLI message was removed. The unweighted fit uses three bright transition
+offsets at 864.1 G and reports the 1->e line separately. The expected result is near -3526.155 kHz and 54.817 degrees.
+Tests allow 0.002 kHz and 0.001 degrees respectively, and independently
+require the three fitted residuals to agree with the static export within
+0.1 kHz. Finite-difference fitting of MHz-scale eigenvalues can produce
+small platform-dependent parameter differences. The fitter reports line centers
+at full fitted precision. Table I uses the static seven-line export at the
+rounded parameters in benchmarks/frozen/baseline_manifest.json. The common
+reference correction enters the table comparison only.

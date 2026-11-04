@@ -1,0 +1,37 @@
+{
+  "step": "2",
+  "date": "2026-11-02",
+  "release_version": "0.2.0.dev2",
+  "public_v0_1_zip_sha256": "16672da29adc12fa18bd484412e026eb9f32c6df2286e43da620c2860178e119",
+  "step1_archive_sha256": "1b9798079a0cae96c03f9f3a66c14d13c5f9a7eb0caedb85edd8ca3212f48a31",
+  "frozen_six_step_plan_sha256": "2b3e9c627eb643d486eb9794db65f75569167c0b41b6cd7ffa7e69960a44bcf3",
+  "gate_ready_npz_sha256": "e8c99f59e0cbab339f0f48ed23b21acba5fb81a86130f9297f89891b2aecdeb5",
+  "derived_data_sha256": {
+    "benchmarks/data/paper_step2/paper_step2_alignment/logical_maps.npz": "da633191ce9bb64d115095ce4c0bf1cb368d1d192c52b8fa92b82b4b8eaea678",
+    "benchmarks/data/paper_step2/paper_step2_alignment/operator_alignment.json": "94be562a8bc8aa07944bf4858dfed704474b9a827516fa9e6e86dbcc40904176",
+    "benchmarks/data/paper_step2/paper_step2_dipolar/basis_order.json": "5d18a1e5f6419cf4446e8a04f588409236b76e473562dc577dc67164abd78279",
+    "benchmarks/data/paper_step2/paper_step2_dipolar/dipolar_basis.csv": "de0129fd95d6dd8b5118095d509f780b86cff64cbf276ea1e86a9df0ab7b924d",
+    "benchmarks/data/paper_step2/paper_step2_dipolar/dipolar_screen_all.csv": "99bb9a838b7b861586a54ee10e2a14bc9f149168403615b57a8de972d2d7f092",
+    "benchmarks/data/paper_step2/paper_step2_extended/basis_order.json": "44e3d6a59a81196ad8c487ac339f65039e3c7fb780701bf882bcb9cd6c5a9914",
+    "benchmarks/data/paper_step2/paper_step2_extended/extended_nominal.csv": "faa3191dd05f4031b560c31291836ba15467d3e806a8e06d1e624e8a451f55e7",
+    "benchmarks/data/paper_step2/paper_step2_fast/gate_basis_results.csv": "25e1e899419d7dcfdc88df4ae7fe77672cf8ce195cb7e2c6eb2947f624a53d30",
+    "benchmarks/data/paper_step2/paper_step2_fast/operator_convergence.csv": "1e86629d6903af4bff95d9676e65670743711e4e4ff130fc3fa5d4a7b3e719a9",
+    "benchmarks/data/paper_step2/paper_step2_fast/run_metadata.json": "791d24189f940f5ede792e70b2888f2a4af0183862e72ed833116b7c608e0799",
+    "benchmarks/data/paper_step2/paper_step2_full/gate_basis_results.csv": "f5002d3b01f0802e37c02a127fb149056ad69b6756f619378492de9eebd696e1",
+    "benchmarks/data/paper_step2/paper_step2_full/operator_convergence.csv": "50194ef52f2397336635668a9051d0860a5ac6aa1a9dee2078ca4fe9f242484d",
+    "benchmarks/data/paper_step2/paper_step2_full/ranked_candidates.csv": "94bc54012c126c5454c43b612317dc3277600013685d2e1755eae4a074e94cff",
+    "benchmarks/data/paper_step2/paper_step2_full/run_metadata.json": "289098c307e1808be003827c52054ac655ab1f1b77a9b93b5b7c218772388ce8",
+    "benchmarks/data/paper_step2/paper_step2_full/screening_all_probes.csv": "c3ea7dec8a579797dc96772ca807f5aa4f26211da937e7dc189c14d614dae646",
+    "benchmarks/data/paper_step2/paper_step2_full/tracking_ambiguity.csv": "e780b94d044e8f6f2211381607d322fb8fba5bc9927dd6838e4f7be8289eb152",
+    "benchmarks/data/paper_step2/paper_step2_perturbed_highbasis/ellipticity_highbasis.csv": "b980c98b60f7a1ead0a69876b07b062bcc0b0ee53c7d59f27f818375dbc81c8d",
+    "benchmarks/data/paper_step2/paper_step2_perturbed_highbasis/metadata.json": "a0f10dfc814a0348870a70eb740edff6b5f12bf3a4f4f2d0babf076e08430e1a",
+    "benchmarks/data/paper_step2/paper_step2_union/cross_screen.csv": "2905d78a281a90e08d0c8829ef9899fbff999cbefe8ef11ae6ea89388474657b",
+    "benchmarks/data/paper_step2/paper_step2_union/selection.json": "4cd69a9d58ec1e31d239f441b2a2acac68c7ef6d5f44b27b7bfe67f43562413a"
+  },
+  "comments": [
+    "Original v0.1.0 and v0.2.0.dev1 are not modified.",
+    "The selected 25-state pair basis is not a proof of 128^2 Hilbert-space convergence.",
+    "Full benchmark uses echo midpoint steps=64; separate fast profile steps=32.",
+    "No figure files in this release."
+  ]
+}
