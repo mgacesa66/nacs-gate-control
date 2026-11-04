@@ -92,3 +92,18 @@ python scripts/paper_step3_noise.py --protocol channel_guarded --scenario tight 
 ```
 
 The 25-state `column_propagator` is independently checked against the original dense pair propagator for two finite-ramp controls. The work uses the same frozen spectroscopy data and is *not* a calibration of real microwave hardware or full 128² basis proof.
+
+### Refit the effective optical parameters
+
+From an editable installation, run:
+
+    OPENBLAS_NUM_THREADS=1 python -m nacs.spectroscopy.calibrate --output outputs/optical_fit
+
+This recovers the fitter from NaCs_spectroscopy_frozen_v1.zip (SHA-256 in
+frozen/manifests/source_archives_sha256.json). Only its obsolete follow-up
+CLI message was removed. The unweighted fit uses three bright transition
+offsets at 864.1 G and reports the 1->e line separately. The expected result
+rounds to -3526.155 kHz and 54.817 degrees. The fitter reports line centers
+at full fitted precision. Table I uses the static seven-line export at the
+rounded parameters in benchmarks/frozen/baseline_manifest.json. The common
+reference correction enters the table comparison only.
