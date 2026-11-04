@@ -137,3 +137,10 @@ This is independent theoretical work inspired by the NaCs molecular-gate experim
 - Figures and a journal manuscript may be added later; neither is included in this release.
 
 **License:** MIT, proposed for the research source code in this release. Review the author/license metadata before publishing publicly. This license does not override any licenses or rights attached to cited third-party experimental datasets or papers.
+
+## Manuscript figures and spectroscopy table
+
+Install plotting dependencies with `python -m pip install -e '.[figures]'`, then
+run `python scripts/manuscript/reproduce.py` from the repository root.
+See [Manuscript reproduction](docs/MANUSCRIPT_REPRODUCTION.md) for the five
+figure inputs, output names, and the seven-line table consistency check.
